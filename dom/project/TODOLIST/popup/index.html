@@ -1,0 +1,50 @@
+<!-- <style>
+    .overlay{
+        background-color:black;
+        width:100%;
+        height:100%;
+        position:absolute;
+        top: 0;
+        left: 0;
+        opacity:0.8;
+
+    }
+    .popupbox{
+        position:absolute;
+        z-index:2;
+    }
+</style>
+<button>Show</button>
+<div class="overlay" ></div>
+<div class="popupbox">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus culpa modi officiis, cum quia delectus ratione vel aut, officia sequi dolor ex quae pariatur velit. Labore, iure accusamus. Molestias, amet!</p>
+    <button>close</button>
+</div>
+<script>
+//   pop up overlay
+// select pop up box
+     var popupoverlay = document.querySelector("overlay")
+     var popupbox =document.querySelector(".popupbox")
+
+     function show()
+     {
+        popupbox.style.display="block"
+        popupoverlay.style.display="block"
+     }
+     function closepopup()
+     {
+        popupbox.style.display="none"
+        popupoverlay.style.display="none"
+     }
+</script> -->
+<button id="btn">show</button>
+<script>
+    var button=document.getElementById("btn")
+    button.addEventListener("click",function(){
+    alert("hello")
+    })
+     button.addEventListener("mouseover",function(){
+        alert("mouse over")
+     })
+    
+</script>
