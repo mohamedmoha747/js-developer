@@ -29,7 +29,7 @@ addbook.addEventListener("click",function(event){
     div.setAttribute("class","book-container")
     div.innerHTML=`<h2>${booktitleinput.value}</h2>
     <h5>${bookauthorinput.value}</h5>
-    <P>${bookdescriptioninput.value}</p>
+    <P>${bookdescriptioninput.value}</p> <--after my checking remove dollar symbol after after eppadi work agudhu-->
     <button onclick="deletebook(event)">Delete</button>`
      container.append(div)
      popupoverlay.style.display="none"
